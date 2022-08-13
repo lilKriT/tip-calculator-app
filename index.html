@@ -25,9 +25,22 @@
   <body class="bg-lightGrayishCyan">
     <section class="flex flex-col justify-center items-center min-h-screen">
       <img src="./images/logo.svg" alt="Splitter Logo" />
-      <div class="bg-white">
-        Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People Tip Amount
-        / person Total / person Reset
+      <!-- Card -->
+      <div class="bg-white rounded-xl p-8">
+        Tip Amount / person Total / person Reset
+        <!-- Left Column -->
+        <div class="flex flex-col">
+          Select Tip % 5% 10% 15% 25% 50% Custom Number of People
+          <form>
+            <label for="bill">Bill</label>
+            <input
+              type="text"
+              name="bill"
+              id="bill"
+              class="bg-veryLightGrayishCyan w-full"
+            />
+          </form>
+        </div>
       </div>
     </section>
   </body>

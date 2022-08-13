@@ -572,6 +572,10 @@ html {
   min-height: 100vh;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -592,6 +596,10 @@ html {
   justify-content: center;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .bg-lightGrayishCyan {
   --tw-bg-opacity: 1;
   background-color: hsl(185 41% 84% / var(--tw-bg-opacity));
@@ -600,4 +608,13 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-veryLightGrayishCyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(189 41% 97% / var(--tw-bg-opacity));
+}
+
+.p-8 {
+  padding: 2rem;
 }
