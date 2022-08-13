@@ -23,29 +23,51 @@
     <title>Tip Calculator App - created by lilKriT</title>
   </head>
   <body class="bg-lightGrayishCyan">
-    <section class="flex flex-col justify-center items-center min-h-screen">
+    <section class="flex flex-col justify-around items-center min-h-screen">
       <img src="./images/logo.svg" alt="Splitter Logo" />
       <!-- Card -->
-      <div class="bg-white rounded-xl p-8">
-        Tip Amount / person Total / person Reset
+      <div class="bg-white rounded-xl p-8 flex w-full max-w-5xl">
         <!-- Left Column -->
-        <div class="flex flex-col">
+        <div class="flex flex-col grow">
           Custom Number of People
-          <form>
-            <label for="bill">Bill</label>
-            <input
-              type="text"
-              name="bill"
-              id="bill"
-              class="bg-veryLightGrayishCyan w-full"
-            />
-          </form>
+
+          <label for="bill">Bill</label>
+          <input
+            type="text"
+            name="bill"
+            id="bill"
+            class="bg-veryLightGrayishCyan w-full"
+          />
+
           <h2>Select Tip %</h2>
-          <button>5%</button>
-          <button>10%</button>
-          <button>15%</button>
-          <button>25%</button>
-          <button>50%</button>
+          <div>
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+          </div>
+        </div>
+        <!-- Right Column -->
+        <div class="bg-veryDarkCyan rounded-xl p-6 grow">
+          <p>Reset</p>
+          <!-- Upper row -->
+          <div class="flex justify-between">
+            <div class="flex flex-col">
+              <h3 class="text-white">Tip Amount</h3>
+              <span class="text-grayishCyan">/ person</span>
+            </div>
+            <h2 class="text-strongCyan text-5xl">$0.00</h2>
+          </div>
+
+          <!-- Middle Row -->
+          <div class="flex justify-between">
+            <div class="flex flex-col">
+              <h3 class="text-white">Total</h3>
+              <span class="text-grayishCyan">/ person</span>
+            </div>
+            <h2 class="text-strongCyan text-5xl">$0.00</h2>
+          </div>
         </div>
       </div>
     </section>
