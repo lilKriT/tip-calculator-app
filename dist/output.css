@@ -556,8 +556,8 @@ html {
 }
 
 .tip-button {
-  width: 33.333333%;
-  flex-shrink: 0;
+  width: 25%;
+  flex-grow: 1;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: hsl(183 100% 15% / var(--tw-bg-opacity));
@@ -587,8 +587,16 @@ html {
   flex-grow: 1;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -605,6 +613,10 @@ html {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .rounded-xl {
