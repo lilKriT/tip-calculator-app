@@ -13,3 +13,11 @@
     @apply bg-veryDarkCyan text-white py-2 rounded-lg w-1/4 grow hover:bg-strongCyan hover:text-veryDarkCyan duration-150 ease-in-out;
   }
 }
+
+@layer utilities {
+  .dollar-icon {
+    background-image: url("../images/icon-dollar.svg");
+    background-position: left 15px center;
+    background-repeat: no-repeat;
+  }
+}

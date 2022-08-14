@@ -576,6 +576,10 @@ html {
   color: hsl(183 100% 15% / var(--tw-text-opacity));
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -665,12 +669,28 @@ html {
   background-color: hsl(172 67% 45% / var(--tw-bg-opacity));
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-6 {
   padding: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-2 {
@@ -686,6 +706,11 @@ html {
   text-align: right;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -696,14 +721,14 @@ html {
   line-height: 1.75rem;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-grayishCyan {
   --tw-text-opacity: 1;
   color: hsl(184 14% 56% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-strongCyan {
@@ -716,12 +741,18 @@ html {
   color: hsl(183 100% 15% / var(--tw-text-opacity));
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.dollar-icon {
+  background-image: url("../images/icon-dollar.svg");
+  background-position: left 15px center;
+  background-repeat: no-repeat;
 }
 
-.text-lightGrayishCyan {
+.placeholder\:text-grayishCyan::-moz-placeholder {
   --tw-text-opacity: 1;
-  color: hsl(185 41% 84% / var(--tw-text-opacity));
+  color: hsl(184 14% 56% / var(--tw-text-opacity));
+}
+
+.placeholder\:text-grayishCyan::placeholder {
+  --tw-text-opacity: 1;
+  color: hsl(184 14% 56% / var(--tw-text-opacity));
 }
