@@ -30,7 +30,7 @@
         class="bg-white rounded-xl px-8 py-10 flex gap-8 w-full max-w-5xl text-grayishCyan"
       >
         <!-- Left Column -->
-        <div class="flex flex-col grow">
+        <div class="flex flex-col w-1/2">
           <label for="bill">Bill</label>
           <input
             type="text"
@@ -41,17 +41,18 @@
           />
 
           <h2 class="mt-10">Select Tip %</h2>
-          <div class="flex flex-row flex-wrap gap-4 mt-4">
+          <div class="grid grid-cols-3 mt-4">
             <button class="tip-button">5%</button>
             <button class="tip-button">10%</button>
             <button class="tip-button">15%</button>
             <button class="tip-button">25%</button>
             <button class="tip-button">50%</button>
+            <!-- <button class="tip-button">50%</button> -->
             <input
               type="text"
               name="custom"
               id="custom"
-              class="bg-veryLightGrayishCyan w-1/4 grow text-center"
+              class="bg-veryLightGrayishCyan w-1/5 text-center"
               placeholder="Custom"
             />
           </div>
@@ -66,7 +67,7 @@
           />
         </div>
         <!-- Right Column -->
-        <div class="bg-veryDarkCyan rounded-xl p-6 grow">
+        <div class="bg-veryDarkCyan rounded-xl p-8 w-1/2">
           <p>Reset</p>
           <!-- Upper row -->
           <div class="flex justify-between">

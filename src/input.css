@@ -10,7 +10,7 @@
 
 @layer components {
   .tip-button {
-    @apply bg-veryDarkCyan text-white text-2xl py-2 rounded-lg w-1/4 grow hover:bg-strongCyan hover:text-veryDarkCyan duration-150 ease-in-out;
+    @apply bg-veryDarkCyan text-white text-2xl py-2 rounded-lg  hover:bg-strongCyan hover:text-veryDarkCyan duration-150 ease-in-out;
   }
 }
 
