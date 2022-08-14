@@ -665,6 +665,10 @@ html {
   padding-bottom: 0.5rem;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
