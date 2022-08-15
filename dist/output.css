@@ -588,6 +588,10 @@ html {
   margin-top: 1rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -737,6 +741,11 @@ html {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-grayishCyan {
   --tw-text-opacity: 1;
   color: hsl(184 14% 56% / var(--tw-text-opacity));
@@ -761,6 +770,14 @@ html {
   background-image: url("../images/icon-dollar.svg");
   background-position: left 15px center;
   background-repeat: no-repeat;
+}
+
+.placeholder\:text-center::-moz-placeholder {
+  text-align: center;
+}
+
+.placeholder\:text-center::placeholder {
+  text-align: center;
 }
 
 .placeholder\:text-grayishCyan::-moz-placeholder {
