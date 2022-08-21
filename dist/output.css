@@ -588,10 +588,6 @@ html {
   margin-top: 1rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -612,10 +608,6 @@ html {
   width: 50%;
 }
 
-.w-1\/5 {
-  width: 20%;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -630,10 +622,6 @@ html {
 
 .flex-col {
   flex-direction: column;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-center {
@@ -718,10 +706,6 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-right {
   text-align: right;
 }
@@ -741,14 +725,14 @@ html {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-grayishCyan {
   --tw-text-opacity: 1;
   color: hsl(184 14% 56% / var(--tw-text-opacity));
+}
+
+.text-veryDarkCyan {
+  --tw-text-opacity: 1;
+  color: hsl(183 100% 15% / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -761,9 +745,20 @@ html {
   color: hsl(172 67% 45% / var(--tw-text-opacity));
 }
 
-.text-veryDarkCyan {
-  --tw-text-opacity: 1;
-  color: hsl(183 100% 15% / var(--tw-text-opacity));
+.outline-2 {
+  outline-width: 2px;
+}
+
+.outline-4 {
+  outline-width: 4px;
+}
+
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dollar-icon {
@@ -788,4 +783,55 @@ html {
 .placeholder\:text-grayishCyan::placeholder {
   --tw-text-opacity: 1;
   color: hsl(184 14% 56% / var(--tw-text-opacity));
+}
+
+.hover\:bg-lightGrayishCyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(185 41% 84% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-grayishCyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(184 14% 56% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-darkGrayishCyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(186 14% 43% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-veryDarkCyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(183 100% 15% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-veryLightGrayishCyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(189 41% 97% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-strongCyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(172 67% 45% / var(--tw-bg-opacity));
+}
+
+.focus\:stroke-strongCyan:focus {
+  stroke: hsl(172, 67%, 45%);
+}
+
+.focus\:outline-4:focus {
+  outline-width: 4px;
+}
+
+.focus\:outline-red-200:focus {
+  outline-color: #fecaca;
+}
+
+.focus\:outline-strongCyan:focus {
+  outline-color: hsl(172, 67%, 45%);
 }
